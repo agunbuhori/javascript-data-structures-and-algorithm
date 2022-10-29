@@ -1,5 +1,5 @@
 function isPrime(n) {
-    for (var i = 2; i < Math.sqrt(n); i++) {
+    for (let i = 2; i < Math.sqrt(n); i++) {
         if (n % i === 0) {
             return false;
         }
@@ -7,8 +7,8 @@ function isPrime(n) {
     return true;
 }
 function prime(last) {
-    var sequence = [];
-    for (var i = 2; i <= last; i++) {
+    const sequence = [];
+    for (let i = 2; i <= last; i++) {
         if (isPrime(i)) {
             sequence.push(i);
         }

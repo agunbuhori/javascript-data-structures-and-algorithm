@@ -1,8 +1,8 @@
 function reverseArray(arr) {
-    var start = 0;
-    var end = arr.length - 1;
+    let start = 0;
+    let end = arr.length - 1;
     while (start < end) {
-        var temp = arr[start];
+        const temp = arr[start];
         arr[start] = arr[end];
         arr[end] = temp;
         start++;

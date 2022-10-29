@@ -1,7 +1,5 @@
-function binarySearch(arr, target, start, end) {
-    if (start === void 0) { start = 0; }
-    if (end === void 0) { end = arr.length - 1; }
-    var middle = Math.floor((start + end) / 2);
+function binarySearch(arr, target, start = 0, end = arr.length - 1) {
+    const middle = Math.floor((start + end) / 2);
     if (arr[middle] === target) {
         return middle;
     }
