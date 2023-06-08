@@ -1,0 +1,8 @@
+{
+  "name": "DS",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/agunbuhori/javascript-data-structures-and-algorithm.git",
+  "author": "agunbuhori <agun.buhori@gmail.com>",
+  "license": "MIT"
+}
