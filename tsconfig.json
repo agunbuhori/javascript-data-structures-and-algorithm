@@ -4,7 +4,10 @@
     "removeComments": true,
     "preserveConstEnums": true,
     "outDir": "./dist",
-    "target": "ES6"
+    "target": "ES6",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true
   },
   "include": ["src/**/*"]
 }
